@@ -1,0 +1,91 @@
+{
+  "game": "SLUS-20776",
+  "date": "2026-10-22T22:35:40.260528-05:00",
+  "experiment": "v7 read-only SPIDERMANX actor identification; not multiplayer",
+  "actor_address": "0x00B305A0",
+  "class_id": "0x39",
+  "vtable": "0x00646D20",
+  "name": "SPIDERMANX",
+  "object_size_from_factory": "0x7D8",
+  "factory_allocation_call": "0x004CDDBC",
+  "constructor_call": "0x004CDDD0",
+  "constructor": "0x002B9044",
+  "p2_enabled": 0,
+  "p2_input_mask": 0,
+  "p2_ack_delta": 0,
+  "sample_times_seconds": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "changed_word_count": 3,
+  "changed_words": [
+    {
+      "offset": "0x078",
+      "before": "0x41ADEAB5",
+      "after": "0x41F7DC2B"
+    },
+    {
+      "offset": "0x07C",
+      "before": "0x40E64F3E",
+      "after": "0x40E64F3E"
+    },
+    {
+      "offset": "0x0A8",
+      "before": "0x00010000",
+      "after": "0x00000000"
+    }
+  ],
+  "candidate_float_triplets_not_confirmed_positions": [
+    {
+      "offset": "0x074",
+      "ranges": [
+        0.0,
+        15.7186,
+        9.009
+      ],
+      "start": [
+        0.0,
+        21.74,
+        7.197
+      ],
+      "end": [
+        0.0,
+        30.983,
+        7.197
+      ]
+    },
+    {
+      "offset": "0x078",
+      "ranges": [
+        15.7186,
+        9.009,
+        0.0
+      ],
+      "start": [
+        21.74,
+        7.197,
+        30.0
+      ],
+      "end": [
+        30.983,
+        7.197,
+        30.0
+      ]
+    }
+  ],
+  "limitations": [
+    "Cannot instantiate a second Spider-Man",
+    "Cannot move or render Player 2",
+    "Candidate float triplets are not verified player position coordinates",
+    "Actor pointer is verified only for supplied savestates and must be checked in each running game"
+  ]
+}

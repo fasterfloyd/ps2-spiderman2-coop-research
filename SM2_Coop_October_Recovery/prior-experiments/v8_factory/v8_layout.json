@@ -1,0 +1,17 @@
+{
+  "game": "SLUS-20776",
+  "crc": "E2DFCE12",
+  "elf_sha256": "1ed83d628bdb7d9824ba793a6f0954da9a43b081231d1dbc1c69d168208eebbb",
+  "hero": 11732384,
+  "hero_expected_vtable": 6581536,
+  "class_id": 57,
+  "game_factory": 5030016,
+  "dispatcher": 1038336,
+  "v6_stub_jal_address": 1044564,
+  "v6_original_target": 5394776,
+  "v8_dispatch_jal": 201586176,
+  "request": 1044756,
+  "result": 1044760,
+  "stage": 1044764,
+  "known_risk": "Experimental duplicate ID pointer and incomplete actor registration. Can crash, corrupt running game, render nothing. No save writing."
+}

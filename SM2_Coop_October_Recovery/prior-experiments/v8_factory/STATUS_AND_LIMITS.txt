@@ -1,0 +1,6 @@
+RESULTS EXPECTED
+- A new object pointer with class 0x39 would show the game's native Spider-Man factory can construct another object.
+- That alone does not establish that it will appear in the city or receive AI updates.
+- A crash, freeze, or null return is plausible because the initializer may require additional scene/resource setup or a unique entity ID.
+- A verified SECOND VISIBLE SPIDER-MAN does NOT exist until the user observes it in PCSX2.
+The installer is reversible and intentionally does not overwrite saves.
